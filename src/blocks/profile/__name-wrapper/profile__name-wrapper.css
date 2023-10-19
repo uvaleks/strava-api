@@ -1,0 +1,18 @@
+.profile__name-wrapper {
+    display: flex;
+    max-width: min-content;
+    gap: 18px;
+    transition: all .5s ease;
+}
+
+@media screen and (max-width: 615px) {
+    .profile__name-wrapper {
+        margin: 0 auto;
+    }   
+}
+
+@media screen and (max-width: 425px) {
+    .profile__name-wrapper {
+        gap: 10px;
+    }   
+}

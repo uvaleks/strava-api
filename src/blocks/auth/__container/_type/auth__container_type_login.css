@@ -1,0 +1,10 @@
+.auth__container_type_login {
+    padding: 60px 35px 112px;
+    transition: all .5s ease;
+}
+
+@media screen and (max-width: 425px) {
+    .auth__container_type_login {
+        padding: 40px 30px 77px;
+    }   
+}

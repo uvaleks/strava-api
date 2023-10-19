@@ -1,0 +1,9 @@
+.auth__signin-hint {
+    color: var(--white);
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: default;
+    transition: all .5s ease;
+}

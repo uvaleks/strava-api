@@ -1,0 +1,27 @@
+.header__menu-button {
+    color: #A9A9A9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.header__menu-button:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 615px) {
+    .header__menu-button {
+        font-size: 14px;
+        line-height: normal; 
+    }   
+}
+
+@media screen and (max-width: 425px) {
+    .header__menu-button {
+        font-size: 18px;
+        line-height: 22px; 
+    }   
+}

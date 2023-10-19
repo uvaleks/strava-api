@@ -1,0 +1,8 @@
+.popup__photo-title {
+    color: var(--white);
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    transition: all .5s ease;
+}

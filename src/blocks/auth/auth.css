@@ -1,0 +1,11 @@
+.auth {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 120px);
+}   
+
+@media screen and (max-width: 425px) {
+    .auth {
+        height: calc(100vh - 85px);
+    }   
+}

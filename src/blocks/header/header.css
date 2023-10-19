@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px rgba(84, 84, 84, .7) solid;
+    transition: all .5s ease;
+}
+
+@media screen and (max-width: 933px) {
+    .header {
+        padding: 0 20px;
+    }   
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        flex-direction: column-reverse;
+        padding: 0;
+        height: auto;
+        border-top: 1px rgba(84, 84, 84, .7) solid;
+    }   
+}

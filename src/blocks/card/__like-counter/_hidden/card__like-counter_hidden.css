@@ -1,0 +1,4 @@
+.card__like-counter_hidden {
+    visibility: hidden;
+    opacity: 0;
+}

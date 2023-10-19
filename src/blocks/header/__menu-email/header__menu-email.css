@@ -1,0 +1,22 @@
+.header__menu-email {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    cursor: default;
+    transition: all .5s ease;
+}
+
+@media screen and (max-width: 615px) {
+    .header__menu-email {
+        font-size: 14px;
+        line-height: normal; 
+    }   
+}
+
+@media screen and (max-width: 425px) {
+    .header__menu-email {
+        font-size: 18px;
+        line-height: 22px; 
+    }   
+}
