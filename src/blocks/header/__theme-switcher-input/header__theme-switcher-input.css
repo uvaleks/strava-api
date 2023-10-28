@@ -1,0 +1,11 @@
+.header__theme-switcher-input {
+    margin: 0 0 36px;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.header__theme-switcher-input:checked + .header__theme-switcher-label .header__theme-switcher-button {
+    left: calc(50% - 2px);
+    transition: left 0.15s ease-in;
+}

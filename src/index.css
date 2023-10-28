@@ -17,6 +17,10 @@
 @import url(./blocks/header/__menu-burger/header__menu-burger.css);
 @import url(./blocks/header/__menu-burger/_icon/header__menu-burger_icon_burger.css);
 @import url(./blocks/header/__menu-burger/_icon/header__menu-burger_icon_close.css);
+@import url(./blocks/header/__theme-wrapper/header__theme-wrapper.css);
+@import url(./blocks/header/__theme-button/header__theme-button.css);
+@import url(./blocks/header/__theme-switcher-input/header__theme-switcher-input.css);
+@import url(./blocks/header/__logout-button/header__logout-button.css);
 
 @import url(./blocks/auth/auth.css);
 @import url(./blocks/auth/__container/auth__container.css);
@@ -45,6 +49,11 @@
 @import url(./blocks/profile/__profile-description/profile__profile-description.css);
 @import url(./blocks/profile/__edit-button/profile__edit-button.css);
 @import url(./blocks/profile/__add-button/profile__add-button.css);
+@import url(./blocks/profile/__overview/profile__overview.css);
+@import url(./blocks/profile/__overview-row/profile__overview-row.css);
+@import url(./blocks/profile/__overview-icon/profile__overview-icon.css);
+@import url(./blocks/profile/__overview-row-title/profile__overview-row-title.css);
+@import url(./blocks/profile/__overview-row-value/profile__overview-row-value.css);
 
 @import url(./blocks/elements/elements.css);
 

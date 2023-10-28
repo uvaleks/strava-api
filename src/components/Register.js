@@ -14,17 +14,19 @@ function Register({ onRegister, authTitle, authButtonText, setUserOnSignupScreee
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    onRegister(password, email)
-      .then((res) => {
-        if (res) {
-          resetForm();
-          setOkTooltipOpen(true);
-        }
-      })
+    // onRegister(password, email)
+    // .then((res) => {
+    //   if (res) {
+    //     resetForm();
+    //     setOkTooltipOpen(true);
+    //   }
+    // })
+    onRegister();
+      
   };
 
   const handleSwitchToSigninClick = () => {
-    navigate('/signin');
+    // navigate('/signin');
     setUserOnSignupScreeen(false);
   }
 
@@ -36,7 +38,7 @@ function Register({ onRegister, authTitle, authButtonText, setUserOnSignupScreee
               onSubmit={handleSubmit}
             > 
               <h2 className="auth__title">{authTitle}</h2>
-                <input
+                {/* <input
                   className="auth__input"
                   placeholder="Email"
                   id="email"
@@ -54,13 +56,13 @@ function Register({ onRegister, authTitle, authButtonText, setUserOnSignupScreee
                   value={password}
                   onChange={e => setPassword(e.target.value)}
                   required/>
-                <span className="password-error auth__input-error"></span>
+                <span className="password-error auth__input-error"></span> */}
               <button className="auth__submit-button" type="submit">{authButtonText}</button>
             </form>
-            <div className="auth__signin-hint-container">
+            {/* <div className="auth__signin-hint-container">
                 <p className="auth__signin-hint">Уже зарегистрированы?</p>
                 <Link onClick={handleSwitchToSigninClick} className="auth__signin-link">Войти</Link>
-            </div>
+            </div> */}
           </div>
     </div>
   );

@@ -1,0 +1,31 @@
+.header__logout-button {
+    filter: invert(1);
+    align-self: center;
+    background-color: unset;
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../../../images/logout-icon.png);
+    border-radius: 4px;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 1;
+    width: 28px;
+    height: 28px;
+    display: block;
+    border: 0;
+    top: 0;
+    right: 0;
+    transition: opacity .15s ease, filter .5s ease;
+}
+
+.header__logout-button:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .header__logout-button {
+        background-size: 24px;
+    }   
+}

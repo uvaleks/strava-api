@@ -1,0 +1,6 @@
+.profile__overview-row-value {
+    color: var(--white);
+    font-size: medium;
+    font-weight: 600;
+    justify-content: center;
+}

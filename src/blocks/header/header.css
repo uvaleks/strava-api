@@ -5,7 +5,7 @@
     height: 120px;
     width: 100%;
     box-sizing: border-box;
-    border-bottom: 1px rgba(84, 84, 84, .7) solid;
+    border-bottom: 1px var(--dark-gray) solid;
     transition: all .5s ease;
 }
 
@@ -17,9 +17,8 @@
 
 @media screen and (max-width: 425px) {
     .header {
-        flex-direction: column-reverse;
-        padding: 0;
-        height: auto;
-        border-top: 1px rgba(84, 84, 84, .7) solid;
+        /* flex-direction: column-reverse; */
+        height: 80px;
+        /* border-top: 1px var(--dark-gray) solid; */
     }   
 }

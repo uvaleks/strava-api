@@ -1,0 +1,5 @@
+.profile__overview-row-title {
+    display: flex;
+    width: 100px;
+    justify-content: start;
+}

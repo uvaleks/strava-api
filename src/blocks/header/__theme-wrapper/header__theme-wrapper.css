@@ -1,0 +1,13 @@
+.header__theme-wrapper {
+    height: 28px;
+    width: 28px;
+    align-self: center;
+    position: relative;
+}
+
+@media screen and (max-width: 425px) {
+    .header__theme-wrapper {
+        height: 24px;
+        width: 24px;
+    }
+}

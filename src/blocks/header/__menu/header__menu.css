@@ -3,16 +3,28 @@
     gap: 24px;
 }
 
+@media screen and (max-width: 615px) {
+    .header__menu {
+        gap: 20px;
+    }
+}
+
 @media screen and (max-width: 425px) {
+    .header__menu {
+        gap: 16px;
+    }
+}
+
+/* @media screen and (max-width: 425px) {
     .header__menu {
         display: none;
         flex-direction: column;
         align-items: center;
         gap: 18px;
         padding: 40px 0;
-        border-bottom: 1px rgba(84, 84, 84, .7) solid;
+        border-bottom: 1px var(--dark-gray) solid;
         box-sizing: border-box;
         width: 100%;
     }   
-}
+} */
 

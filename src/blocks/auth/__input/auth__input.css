@@ -2,7 +2,7 @@
     width: 100%;
     border: none;
     background-color: var(--black);
-    border-bottom: 2px var(--light-gray) solid;
+    border-bottom: 1px var(--dark-gray) solid;
     padding-bottom: 10px;
     font-size: 14px;
     font-weight: 400;

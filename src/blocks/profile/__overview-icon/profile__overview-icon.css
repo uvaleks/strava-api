@@ -1,0 +1,5 @@
+.profile__overview-icon {
+    max-width: 80px;
+    max-height: 35px;
+    filter: invert(1);
+}
